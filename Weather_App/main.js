@@ -10,7 +10,8 @@ if (window.localStorage.getItem("city")){
 async function weatherCheck(city) {
     try {
         const response = await fetch(apiUrl + `&q=${city}` + `&appid=${apiKey}`);
-        if (response.ok) {
+        if (response.ok){
+            
             let Data = await response.json();
             document.querySelector(".temp").innerHTML = `${Math.round(Data.main.temp)}°C`;
             document.querySelector(".city").innerHTML = Data.name;
