@@ -3,10 +3,10 @@ const taskButton= document.querySelector(".task-btn");
 const listContainer=document.querySelector(".list-container");
 
 
-// add event listener when button is clicked
+// add event listener when the button is clicked
 taskButton.addEventListener("click",()=>{
 
-    // check if the input bos is not empty
+    // check if the input box is not empty
     if (inputBox.value.trim()===""){
         alert("Please enter your task");
     } else {
@@ -40,7 +40,7 @@ listContainer.addEventListener("click",(e)=>{
 function saveData(){
     localStorage.setItem("tasks",listContainer.innerHTML);
 }
-// display the tasks in web bage
+// display the tasks in web page
 function showData(){
     listContainer.innerHTML=localStorage.getItem("tasks");
 }
