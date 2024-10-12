@@ -38,6 +38,7 @@ listContainer.addEventListener("click",(e)=>{
 
 // saving the tasks in local storage 
 function saveData(){
+    // TODO new way to save Data in local Storage. 
     localStorage.setItem("tasks",listContainer.innerHTML);
 }
 // display the tasks in web page
