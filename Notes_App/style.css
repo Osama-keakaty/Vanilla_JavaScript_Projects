@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.note-app {
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(-130deg, #cf9aff, #95c0ff);
+    padding: 10px;
+}
+
+
+.container{
+    padding: 50px;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.container h2 img{
+    width: 40px;
+}
+
+
+.container .add-btn{
+    display: flex;
+    align-items: center;
+    color:white;
+    background: linear-gradient(180deg,#9418fd,#571094 );
+    border: 0;
+    outline: 0;
+    width: fit-content;
+    padding: 10px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    gap: 5px;
+    cursor: pointer;
+}
+.container .add-btn img{
+    width: 20px;
+}
+
+.container .notes-list{
+    margin: 50px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.container .notes-list li{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container .notes-list li .input-box{
+    outline: 0;
+    border: 0;
+    min-height: 100px;
+}
+.container .notes-list li .delete-btn{
+    max-width: 25px;
+    outline: 0;
+    border: 0; 
+    background-color: white;
+    align-self: end ;
+    cursor: pointer;
+}
+
+.container .notes-list li .delete-btn img{
+    width: 25px;
+}
