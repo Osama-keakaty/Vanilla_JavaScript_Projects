@@ -14,7 +14,7 @@ passwordField.value=password;
 });
 
 copyBtn.addEventListener("click",()=>{
-    // TODO copy instruction
+    // TODO copy text instruction
     navigator.clipboard.writeText(passwordField.value);
     
     passwordField.value="";
