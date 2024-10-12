@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppin',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(130deg,#481eb5,#7b97e0);
+}
+
+.app-container{
+    padding: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+.app-container h1:nth-child(1){
+color: #faf163;
+font-size: 40px;
+}
+.app-container h1:nth-child(2){
+color: white;
+font-size: 40px;
+}
+
+.app-container .age-box{
+    display: flex;
+    padding: 30px;
+    max-width: 400px;
+    background-color: #938bdf;
+    gap: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.app-container .age-box input{
+    flex:1;
+    outline: 0;
+    border: 0;
+    height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.app-container .age-box .calculate-btn{
+    outline: 0;
+    border: 0;
+    padding:10px 15px;
+    color:#150152 ;
+    background-color:#faf163 ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.app-container .Result{
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.app-container .Result span{
+    color: #faf163;
+}
