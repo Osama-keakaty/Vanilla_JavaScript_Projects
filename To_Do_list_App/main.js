@@ -2,7 +2,9 @@ const inputBox = document.getElementById("input-box");
 const taskButton= document.querySelector(".task-btn");
 const listContainer=document.querySelector(".list-container");
 
-
+if(localStorage.getItem("tasks")===null){
+    localStorage.setItem("tasks","");
+}
 // add event listener when the button is clicked
 taskButton.addEventListener("click",()=>{
 
