@@ -46,13 +46,13 @@ body{
 
 .toast-box{
     position:absolute;
-    right: 30px ;
-    top: 30px;
+    right: 0 ;
+    top: 0;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     overflow: hidden;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
 
 }
@@ -73,6 +73,11 @@ body{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,40%);
+    
 }
 
 .toast-box .toast::before{

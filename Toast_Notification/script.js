@@ -1,7 +1,7 @@
 const toastBox = document.querySelector(".toast-box");
-let successMsg = "Successfully submitted";
-let errorMsg = " please fix the Error!";
-let invalidMsg = "invalid input, please check again";
+let successMsg = `<i class="fa-solid fa-circle-check" style="color:green"></i>  Successfully submitted`;
+let errorMsg =  `<i class="fa-solid fa-circle-exclamation" style="color:red"></i> please fix the Error!`;
+let invalidMsg = `<i class="fa-solid fa-circle-xmark"  style="color:blue"></i> invalid input, please check again`;
 async function showToast(value){
     let toast = document.createElement("div");
     toast.innerHTML=value;
