@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e85aa409be.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <button class="arrow-back">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="music-details">
+            <img src="media/Joji_-_Glimpse_of_Us.png" alt="">
+            <h2>Glimpse of Us</h2>
+            <p>Joji</p>
+            <audio  id="song">
+                <source src="media/Joji-GlimpseofUs.mp3" type="audio/mpeg">
+            </audio>
+
+            <!-- TODO create new slider bar for audio -->
+            <input type="range" value="0" id="progress">
+            <!-- TODO add audio control section -->
+            <div class="control">
+                <div>
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div onclick="playPause()">
+                    <i class="fa-solid fa-play" id="ctrlIcon"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
