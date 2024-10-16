@@ -5,7 +5,7 @@
 This repository contains a collection of simple Vanilla JavaScript applications to demonstrate various programming concepts and the power of pure JavaScript. The apps included are:  
 
 - **[Age Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Age_Calculator_App)**: Calculates the age based on the user's date of birth.  
-- **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player)**: A simple music player that allows users to play, pause, and skip through tracks.
+- **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
 - **[QR Code Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/QR_Code_Generator_App)**: Generates QR codes from user-inputted text.
 - **[Quiz App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quiz_App)**: A fun quiz application that tests your knowledge across various topics.  
