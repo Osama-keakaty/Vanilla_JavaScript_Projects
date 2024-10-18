@@ -6,6 +6,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 
 - **[Age Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Age_Calculator_App)**: Calculates the age based on the user's date of birth.
 - **[Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Calculator_App)**: A simple calculator application for basic arithmetic operations.    
+- **[Dark Mode App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Dark_Mode_App)**: Toggles between light and dark themes for the page.
 - **[Hide And Show Password](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Hide_Show_Password)**: Toggles the visibility of passwords in input fields.  
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
