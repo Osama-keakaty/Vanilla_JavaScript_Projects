@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2c3f5f;
+}
+
+.container,
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.card {
+    display: none;
+    animation: trans 0.5s;
+    -webkit-animation: trans 0.5s;
+
+}
+
+.card .content {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    justify-content:space-around;
+
+}
+
+.content::after {
+    content: url(404-tick.png);
+    position: absolute;
+    top: -100px;
+    left: 25%;
+    scale: 0.4;
+}
+
+.card .content h1{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.card .content p{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.card .content button{
+    border: 0;
+    background-color: #6fd649;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+.container button {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+ button:active {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+@keyframes trans {
+    0% {
+        top: -50%;
+        transform: scale(0.1) translate(-100%,0px);
+        -webkit-transform: scale(0.1) translate(-100%,0px);
+        -moz-transform: scale(0.1) translate(-100%,0px);
+        -ms-transform: scale(0.1) translate(-100%,0px);
+        -o-transform: scale(0.1) translate(-100%,0px);
+}
+
+    100% {
+        top: 50%;
+        transform: scale(1) translate(-50%,-50%);
+        -webkit-transform: scale(1) translate(-50%,-50%);
+        -moz-transform: scale(1) translate(-50%,-50%);
+        -ms-transform: scale(1) translate(-50%,-50%);
+        -o-transform: scale(1) translate(-50%,-50%);
+}
+}

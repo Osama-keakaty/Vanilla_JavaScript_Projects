@@ -8,6 +8,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Calculator_App)**: A simple calculator application for basic arithmetic operations.    
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
+- **[Popup App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Popup_App)**: Provides a simple popup interface for displaying messages.
 - **[QR Code Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/QR_Code_Generator_App)**: Generates QR codes from user-inputted text.
 - **[Quiz App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quiz_App)**: A fun quiz application that tests your knowledge across various topics.  
 - **[Quote Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quote_Generator_App)**: Generates random quote and tweet it on your X profile. 
