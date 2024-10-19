@@ -27,12 +27,6 @@ function submitErrorMsg() {
     setTimeout(() => submitError.style.visibility = "hidden", 3000);
 }
 
-function checkContent(value) {
-    if (value == userName) {
-        return userName.value.match(/\w+ .\w/gi);
-    }
-}
-
 function validateName() {
     if (checkEmpty(userName)) {
         nameError.innerHTML = "Name is required";
