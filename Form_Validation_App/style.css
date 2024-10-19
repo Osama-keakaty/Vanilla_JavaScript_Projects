@@ -44,9 +44,11 @@ body{
     left: 50%;
     color: #fff;
     scale: 4;
-    background-color: #141a34;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,40%);
+    background-color: #141a34;
+    width: 15px;
+    height: 15px;
 }
 .content .input-group{
     display: flex;
