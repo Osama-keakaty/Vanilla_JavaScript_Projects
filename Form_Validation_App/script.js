@@ -14,7 +14,9 @@ submitBtn.addEventListener("click", () => {
     validateNumber();
     validateEmail();
     validateMessage();
-    if(checkEmpty(userName) || checkEmpty(phone) || checkEmpty(email) || checkEmpty(message)){
+    if(emailError.innerHTML==nameError.innerHTML && nameError.innerHTML==phoneError.innerHTML && phoneError.innerHTML==messageError.innerHTML && messageError.innerHTML==`<i class="fa-solid fa-circle-check"></i>`){
+        submitError.style.visibility = "hidden";
+    } else {
         submitErrorMsg();
     }
 });
@@ -33,14 +35,14 @@ function validateName() {
     } else if (!userName.value.match(/\w+ \w/gi)) {
         nameError.innerHTML = "Full Name please";
     } else {
-        nameError.innerHTML = "";
+        nameError.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
     }
 }
 function validateNumber() {
     if (checkEmpty(phone)) {
         phoneError.innerHTML = "Phone Number is required";
     } else if (phone.value.match(/\+\d{1,3} \d{9}/gi)) {
-        phoneError.innerHTML = "";
+        phoneError.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
     } else {
         phoneError.innerHTML = "Number is invalid";
 
@@ -50,7 +52,7 @@ function validateEmail() {
     if (checkEmpty(email)) {
         emailError.innerHTML = "Email is required";
     } else if (email.value.match(/\w+@\w+\.\w+/gi)) {
-        emailError.innerHTML = "";
+        emailError.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
     } else {
         emailError.innerHTML = "Email is invalid";
 
@@ -60,7 +62,7 @@ function validateMessage() {
     if (checkEmpty(message)) {
         messageError.innerHTML = "30 characters message is required";
     } else if (message.value.match(/.{30,}/gi)) {
-        messageError.innerHTML = "";
+        messageError.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
     } else {
         messageError.innerHTML = `${30-message.value.length} more characters required`;
 

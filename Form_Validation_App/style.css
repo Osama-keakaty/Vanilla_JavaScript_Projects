@@ -36,7 +36,7 @@ body{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.content i{
+.content>i{
     position: absolute;
     width: fit-content;
     height: fit-content;
@@ -93,4 +93,8 @@ color: red;
 #submit-error{
     visibility:hidden;
     color: red;
+}
+
+.fa-circle-check{
+    color: green;
 }
