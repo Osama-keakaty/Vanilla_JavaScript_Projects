@@ -20,6 +20,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Quote Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quote_Generator_App)**: Generates random quote and tweet it on your X profile. 
 - **[Random Password App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Random_password_App)**: Generates secure random passwords with user-defined criteria. 
 - **[Stopwatch App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Stopwatch_App)**: A basic stopwatch application to track elapsed time.  
+- **[Text to Speech Converter App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Text_To_Speech_Converter)**: Converts written text into spoken words. Allows users to select voice option.  
 - **[Toast Notification](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Toast_Notification)**:  Displays notification messages to the user in a toast style.
 - **[To-Do List App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/To_Do_list_App)**: A straightforward application to manage daily tasks  with saving data in local storage.
 - **[Weather App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Weather_App)**: An app that fetches weather data from a public API and displays it for a specified location.  

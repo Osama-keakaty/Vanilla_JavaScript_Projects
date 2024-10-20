@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #050949, #4d1864);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.content h1 span {
+    color: #ec4972;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+
+}
+
+.content textarea {
+    /* margin-top: 20px; */
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content textarea::-webkit-input-placeholder {
+    color: #bcbcbc;
+}
+
+
+.selection {
+    display: flex;
+    gap: 30px;
+}
+
+.selection select {
+    flex: 1;
+    outline: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 10%);
+    cursor: pointer;
+    color: #fff;
+    appearance: none;
+    background-image: url(images/dropdown.png);
+    background-position-x: calc(100% - 20px);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+
+.selection select option {
+    color: #fff;
+    background-color: #050949;
+
+}
+
+.selection select::-webkit-scrollbar {
+    width: 10px;
+}
+
+.selection select::-webkit-scrollbar-thumb {
+    background: #ec4972;
+}
+
+
+.selection button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background-color: #ec4972;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.selection button img {
+    height: 15px;
+}
