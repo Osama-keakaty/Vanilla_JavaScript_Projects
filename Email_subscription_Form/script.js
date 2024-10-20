@@ -6,7 +6,9 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycby0Ctjo6niCeZ_4Aso5DF
 const form = document.forms['submit-to-google-sheet']
 
 form.addEventListener('submit', e => {
+     // TODO it stops traditional refresh form 
   e.preventDefault()
+  // TODO we used POST method for posting the entire form (in our case we have one column)
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         sendBtn.addEventListener("click",()=>{
