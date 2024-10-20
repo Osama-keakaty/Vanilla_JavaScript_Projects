@@ -13,6 +13,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Image Gallery App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Gallery_App)**: Displays an interactive gallery of images. 
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
+**[Password Strength App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Password_Strength_App)** Evaluates the strength of user-input passwords.Provides real-time feedback for stronger passwords Depending on the use numbers,characters and special characters.  
 - **[Popup App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Popup_App)**: Provides a simple popup interface for displaying messages.
 - **[QR Code Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/QR_Code_Generator_App)**: Generates QR codes from user-inputted text.
 - **[Quiz App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quiz_App)**: A fun quiz application that tests your knowledge across various topics.  
