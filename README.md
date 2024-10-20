@@ -7,6 +7,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Age Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Age_Calculator_App)**: Calculates the age based on the user's date of birth.
 - **[Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Calculator_App)**: A simple calculator application for basic arithmetic operations.    
 - **[Dark Mode App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Dark_Mode_App)**: Toggles between light and dark themes for the page.
+- **[Email Subscription Form](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Email_Subscription_Form)**: Allows users to subscribe by entering their email addresses.Integrates with Google Sheets to store subscriptions. [View Sheet](https://docs.google.com/spreadsheets/d/1CevIk5jh6ibwcK6WtiuwL-7y70hvvfkmRv9TvMM1dJY/edit?gid=0#gid=0)  
 - **[Form Validation App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Form_Validation_App)**: Validates user input in forms (e.g., required fields, email format).Provides real-time feedback to users on their input.
 - **[Hide And Show Password](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Hide_Show_Password)**: Toggles the visibility of passwords in input fields.  
 - **[Image Gallery App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Gallery_App)**: Displays an interactive gallery of images. 

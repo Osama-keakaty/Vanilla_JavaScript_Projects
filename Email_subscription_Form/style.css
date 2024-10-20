@@ -1,0 +1,86 @@
+*{
+    padding :0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+width: 100%;
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url(images/background.png); 
+background-size: cover;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: start;
+padding: 100px;
+color: #fff;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container .content h1{
+    font-size: 40px;
+}
+.container .content p:nth-child(1){
+font-size: 24px;
+}
+.container .content p:nth-child(2){
+font-size: 20px;
+}
+.container .content span{
+font-size: 16px;
+color: green;
+visibility: hidden;
+}
+
+
+.container .content .input-field{
+    display: flex;
+}
+
+.container .content .input-field input{
+    flex: 1;
+    padding:10px;
+    outline: none;
+border: 0;
+font-size: 16px;
+}
+.container .content .input-field button{
+padding:10px;
+background-color: green;
+outline: none;
+border: 0;
+overflow: hidden;
+cursor: pointer;
+}
+
+.container .content .input-field button img{
+    height: 30px;
+    transform:translate(0px , 0px);
+    -webkit-transform:translate(0px , 0px);
+    -moz-transform:translate(0px , 0px);
+    -ms-transform:translate(0px , 0px);
+    -o-transform:translate(0px , 0px);
+}
+
+@keyframes sending{
+    0%{
+        transform:translate(0px , 0px);
+        -webkit-transform:translate(0px , 0px);
+        -moz-transform:translate(0px , 0px);
+        -ms-transform:translate(0px , 0px);
+        -o-transform:translate(0px , 0px);
+}100%{
+    transform:translate(100px , -100px);
+    -webkit-transform:translate(100px , -100px);
+    -moz-transform:translate(100px , -100px);
+    -ms-transform:translate(100px , -100px);
+    -o-transform:translate(100px , -100px);
+}
+}
