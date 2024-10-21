@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+}
+
+.container .logo {
+    display: flex;
+    padding: 30px;
+}
+
+.container .logo img {
+    height: 40px;
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.container .content .details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    color: #fff;
+
+}
+
+.container .content .details>p {
+    font-size: 18px;
+}
+
+.container .content .details>h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .content .details>h1 span {
+    color: #e73864;
+}
+
+.container .content .details .timer {
+    display: flex;
+    gap: 25px;
+}
+
+.container .content .details .timer .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content .details .timer .time>h1 {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.container .content button {
+    outline: 0;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    width: fit-content;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .content button img {
+    height: 20px;
+}
+
+.container .content .rocket {
+    height: 300px;
+    opacity: 0;
+    animation:rocket 3s ease-in infinite;
+    -webkit-animation:rocket 3s ease-in infinite;
+}
+
+@keyframes rocket{
+    0%{
+        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+        -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        -o-transform: translateY(100px);
+        opacity: 0;
+} 50%{
+    opacity: 1;
+    
+}
+100%{
+    transform: translateY(-600px);
+    -webkit-transform: translateY(-600px);
+    -moz-transform: translateY(-600px);
+    -ms-transform: translateY(-600px);
+    -o-transform: translateY(-600px);
+    opacity: 1;
+}
+}
