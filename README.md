@@ -11,6 +11,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Email Subscription Form](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Email_subscription_Form)**: Allows users to subscribe by entering their email addresses.Integrates with Google Sheets to store subscriptions. [View Sheet](https://docs.google.com/spreadsheets/d/1CevIk5jh6ibwcK6WtiuwL-7y70hvvfkmRv9TvMM1dJY/edit?gid=0#gid=0)
 - **[Form Validation App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Form_Validation_App)**: Validates user input in forms (e.g., required fields, email format).Provides real-time feedback to users on their input.
 - **[Hide And Show Password](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Hide_Show_Password)**: Toggles the visibility of passwords in input fields.
+- **[Image Background Change Effect App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Background_Change_Effect)**: Allows users to change the background of an image by hovering over it.  
 - **[Image Gallery App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Gallery_App)**: Displays an interactive gallery of images.
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.

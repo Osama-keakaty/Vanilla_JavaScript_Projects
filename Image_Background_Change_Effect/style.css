@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.container .img-modified{
+    width: 60%;
+    position: relative;
+    background-image: url(images/background.png) ;
+    overflow: hidden;
+}
+
+.container .img-modified .img-original{
+    width: 30px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+
+span{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left:30px;
+    top: 0;
+    cursor: ew-resize;
+}
+
+span img{
+    width: 40px;
+    position: absolute;
+    left:0;
+    top: 45%; 
+    margin: -20px;
+}
