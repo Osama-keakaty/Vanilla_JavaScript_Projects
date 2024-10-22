@@ -13,6 +13,7 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 - **[Hide And Show Password](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Hide_Show_Password)**: Toggles the visibility of passwords in input fields.
 - **[Image Background Change Effect App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Background_Change_Effect)**: Allows users to change the background of an image by hovering over it.  
 - **[Image Gallery App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Image_Gallery_App)**: Displays an interactive gallery of images.
+-  **[Mini Calendar App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Mini_Calendar_App)**: Displays the full current date info, Utilizes basic JavaScript Date methods for functionality.  
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
 - **[Password Strength App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Password_Strength_App)** Evaluates the strength of user-input passwords.Provides real-time feedback for stronger passwords Depending on the use numbers,characters and special characters.
