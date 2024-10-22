@@ -67,7 +67,7 @@ right: 20px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     background-color: rgba(255,255,255,70%);
-    visibility: visible;
+    visibility: hidden;
 }
 .content .list li{
     display: flex;
