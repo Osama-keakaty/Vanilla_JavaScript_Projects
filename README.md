@@ -4,7 +4,6 @@
 
 This repository contains a collection of simple Vanilla JavaScript applications to demonstrate various programming concepts and the power of pure JavaScript. The apps included are:  
 
-- **[Age Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Age_Calculator_App)**: Calculates the age based on the user's date of birth.
 - **[Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Calculator_App)**: A simple calculator application for basic arithmetic operations.
 - **[Coming Soon App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Coming_Soon_App)** Displays a countdown timer.
 - **[Dark Mode App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Dark_Mode_App)**: Toggles between light and dark themes for the page.
@@ -16,7 +15,8 @@ This repository contains a collection of simple Vanilla JavaScript applications 
 -  **[Mini Calendar App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Mini_Calendar_App)**: Displays the full current date info, Utilizes basic JavaScript Date methods for functionality.  
 - **[Music Player App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Music_Player_App)**: A simple music player that allows users to play, pause, and skip through tracks.
 - **[Notes App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Notes_App)**: A simple application to create, edit, and delete notes with saving data in local storage.
-- **[Password Strength App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Password_Strength_App)** Evaluates the strength of user-input passwords.Provides real-time feedback for stronger passwords Depending on the use numbers,characters and special characters.
+- **[Password Strength App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Password_Strength_App)** Evaluates the strength of user-input passwords.Provides real-time feedback for stronger passwords Depending on the use of numbers, characters and special characters.
+- **[Age Calculator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Age_Calculator_App)**: Calculates the age based on the user's date of birth.
 - **[Popup App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Popup_App)**: Provides a simple popup interface for displaying messages.
 - **[QR Code Generator App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/QR_Code_Generator_App)**: Generates QR codes from user-inputted text.
 - **[Quiz App](https://osama-keakaty.github.io/Vanilla_JavaScript_Projects/Quiz_App)**: A fun quiz application that tests your knowledge across various topics.  
